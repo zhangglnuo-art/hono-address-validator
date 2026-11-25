@@ -1,0 +1,38 @@
+{
+  "name": "@allswap/hono-address-validator",
+  "version": "1.0.0",
+  "description": "Zero-dependency Hono middleware for validating multi-chain cryptocurrency wallet address syntax, checksums, mandatory Memo/Destination Tag routing rules, and vanity address-poisoning defense across 46+ blockchain networks.",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "homepage": "https://allswap.io/tools/address-validator",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangglnuo-art/hono-address-validator.git"
+  },
+  "license": "MIT",
+  "author": "AllSwap Security Labs <zhangglnuo@gmail.com> (https://allswap.io)",
+  "keywords": [
+    "hono",
+    "hono-middleware",
+    "cloudflare-workers",
+    "bun",
+    "deno",
+    "blockchain",
+    "cryptocurrency",
+    "address-validator",
+    "address-poisoning",
+    "web3",
+    "allswap"
+  ],
+  "peerDependencies": {
+    "hono": ">=3.0.0 || >=4.0.0"
+  }
+}
